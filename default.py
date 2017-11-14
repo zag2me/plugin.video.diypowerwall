@@ -21,6 +21,8 @@ YOUTUBE_CHANNEL_ID2 = "UCzqf9_I-p-vgOoJrmewEMsg"
 YOUTUBE_CHANNEL_ID3 = "UCcMfCkN1juSa49DJFYltOTw"
 YOUTUBE_CHANNEL_ID4 = "UCI6ASwT150rendNc5ytYYrQ"
 YOUTUBE_CHANNEL_ID5 = "UCBLudMLfVsDbumUJxWIz_WA"
+YOUTUBE_CHANNEL_ID6 = "UCZm-Gp9v5KH98bQwkAxyF3w"
+YOUTUBE_CHANNEL_ID7 = "UCLKYCkXn8HDEUfIGO2lmCnQ"
 
 # Entry point
 def run():
@@ -73,6 +75,19 @@ plugintools.add_item(
     url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID5+"/",
     thumbnail=icon,
     folder=True )
-	
+
+plugintools.add_item( 
+    #action="", 
+    title="Colin Hickey",
+    url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID6+"/",
+    thumbnail=icon,
+    folder=True )
+
+plugintools.add_item( 
+    #action="", 
+    title="Sailing and Electronics",
+    url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID7+"/",
+    thumbnail=icon,
+    folder=True )
 
 run()
